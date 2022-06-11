@@ -1,0 +1,63 @@
+.App {
+  background: #221334;
+  height: 100%;
+}
+
+.title-block {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .title-block {
+    padding-left: calc((100% - 290px) / 2);
+  }
+}
+
+@media (min-width: 600px) {
+  .title-block {
+    padding-left: calc((100% - 580px) / 4);
+  }
+}
+
+@media (min-width: 1024px) {
+  .title-block {
+    padding-left: calc((100% - 870px) / 6);
+  }
+}
+
+@media (min-width: 1440px) {
+  .title-block {
+    padding-left: calc((100% - 1160px) / 8);
+  }
+}
+
+.title-block .title-icon {
+  height: 26px;
+  width: 26px;
+  margin-right: 16px;
+}
+
+.title-block .title-name {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #00D7D7;
+}
+
+.item-warp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.data-loading {
+  width: 100%;
+  color: white;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
